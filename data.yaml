@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['uniform-black shoes', 'uniform-bottom', 'uniform-id', 'uniform-logo', 'uniform-top']
+
+roboflow:
+  workspace: university-uniform-detection
+  project: university-uniform-detection-2
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/university-uniform-detection/university-uniform-detection-2/dataset/2
